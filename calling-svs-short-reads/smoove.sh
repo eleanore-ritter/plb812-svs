@@ -9,12 +9,15 @@
 #SBATCH --job-name smoove           # you can give your job a name for easier identification (same as -J)
 #SBATCH --output=%x_%j.SLURMout
 
+#Set this variable to the path to wherever you have conda installed
+conda=""
 
 #change to working directory
 cd $PBS_O_WORKDIR
 
-export PATH=/mnt/home/rittere5/anaconda3/envs/lumpy/bin:$PATH
-export LD_LIBRARY_PATH="$HOME/anaconda3/envs/lumpy/lib:$LD_LIBRARY_PATH"
+export PATH="${conda}/envs/plb812-svs/bin:${PATH}"
+export LD_LIBRARY_PATH="${conda}/envs/plb812-svs/lib:${LD_LIBRARY_PATH}"
+
 
 # run smoove call to call SVs
 # -x remove PRPOS and PREND tags from INFO
