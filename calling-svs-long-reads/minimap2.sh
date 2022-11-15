@@ -25,7 +25,7 @@ fastq="" # Input fastq file - should be trimmed and filtered
 threads="" # Number of threads/CPUs per task to use
 
 #Make minimap2 index
-echo "No index detected, creating index"
+echo "Creating minimap2 index"
 
 # Run minimap2 to generate index
 # -x specify datatype (ont, pac, hifi, etc.)
