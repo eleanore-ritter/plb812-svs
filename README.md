@@ -3,6 +3,6 @@
 
 Repository contains lesson powerpoint, all scripts utilized in SV calling pipelines described in lesson, and testing data for SV pipeline. All resources in this repository are free for anyone's use.
 
-### Some helpful github links:
--Git commands: https://github.com/joshnh/Git-Commands
--GitHub basics: https://towardsdatascience.com/learn-enough-git-to-be-useful-281561eef959
+### Some helpful additional resources:
+- Git commands: https://github.com/joshnh/Git-Commands
+- GitHub basics: https://towardsdatascience.com/learn-enough-git-to-be-useful-281561eef959
